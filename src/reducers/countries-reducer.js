@@ -1,5 +1,5 @@
 import {GET_COUNTRIES, GET_COUNTRY, DELETE_COUNTRY, SEARCH_COUNTRIES, SET_CONTINENT} from '../actions/actions';
-const countriesData = require('../data/countries.json');// import mi nie działa, tylko require
+import countriesData from '../data/countries.json';
 
 const initialState = {
     countries: countriesData
